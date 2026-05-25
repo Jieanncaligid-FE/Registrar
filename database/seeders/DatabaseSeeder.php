@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         User::firstOrCreate(
-            ['email' => 'registrar@example.com'],
+            ['email' => 'jieann@gmail.com'],
             [
                 'name' => 'Registrar',
                 'password' => Hash::make('password'),
@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         );
 
         User::firstOrCreate(
-            ['email' => 'admin@example.com'],
+            ['email' => 'admin@gmail.com'],
             [
                 'name' => 'Registrar Admin',
                 'password' => Hash::make('password'),
